@@ -19,4 +19,7 @@ services:
       MYSQL_DATABASE: my_database 
       MYSQL_USER: my_user
       MYSQL_PASSWORD: my_password
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d  # Mount the sql directory into the container
+    command: --init-file /docker-entrypoint-initdb.d/init.sql  # Execute the init.sql script during container initialization
 
