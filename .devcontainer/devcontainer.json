@@ -21,7 +21,7 @@
 
 	"extensions": [
         {
-            "name": "vscode-database-client"
+            "name": "cweijan.vscode-mysql-client2"
         }
 	]
 }
