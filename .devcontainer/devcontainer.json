@@ -1,5 +1,5 @@
 {
     "name": "MySQL Development Env",
-	"build": {"dockerfile": "../Dockerfile"},
-    "forwardPorts": ["3306:3306"]
+    "dockerComposeFile": "../docker-compose.yml",
+    "forwardPorts": [3306]
 }
