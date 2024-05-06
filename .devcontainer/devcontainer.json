@@ -1,0 +1,5 @@
+{
+    "name": "MySQL Development Env",
+	"build": {"dockerfile": "../Dockerfile"},
+    "forwardPorts": ["3306:3306"]
+}

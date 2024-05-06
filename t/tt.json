@@ -1,8 +1,0 @@
-{
-    "name": "MySQL Development Env",
-	"dockerFile": "../Dockerfile",
-    "forwardPorts": [3306],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    }
-}
