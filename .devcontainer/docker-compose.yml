@@ -10,11 +10,13 @@ services:
     # build:
     #   context: .
     #   dockerfile: .devcontainer/Dockerfile
-     ports:
+    container_name: mysql
+    image: mysql:latest
+    ports:
       - '3306:3306'
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: my_database 
       MYSQL_USER: my_user
       MYSQL_PASSWORD: my_password
- 
+
