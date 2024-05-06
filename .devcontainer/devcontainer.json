@@ -20,8 +20,6 @@
 	"forwardPorts": [3306],
 
 	"extensions": [
-        {
-            "name": "cweijan.vscode-mysql-client2"
-        }
+        "cweijan.vscode-mysql-client2"
 	]
 }
